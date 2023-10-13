@@ -33,7 +33,7 @@ function App() {
                 <div
                   className={`${
                     message.type === "user" ? "bg-purple-500" : "bg-blue-500"
-                  } rounded-lg p-4 text-white max-w-sm`}
+                  } rounded-lg p-4 text-white max-w-sm break-words`}
                 >
                   {message.message}
                 </div>
