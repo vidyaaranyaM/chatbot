@@ -5,7 +5,7 @@ from database import add_response, fetch_all_responses
 from model import ChatResponse
 
 import sys
-sys.path.append("../mlp_model")
+sys.path.append("../llama_model")
 from chat import ChatBot
 
 app = FastAPI()
